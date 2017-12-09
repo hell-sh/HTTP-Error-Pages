@@ -1,4 +1,4 @@
-# HTTP-Error-Pages
+# HTTP Error Pages
 
 - [400](https://errors.nex.li/400.html)
 - [401](https://errors.nex.li/401.html)
