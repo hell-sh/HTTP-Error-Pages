@@ -4,3 +4,9 @@
 - [401](https://errors.nex.li/401.html)
 - [403](https://errors.nex.li/403.html)
 - [404](https://errors.nex.li/404.html)
+
+## Installation
+
+You can simply install the HTTP-Error-Pages into your Apache server using this command:
+
+```wget -qO- https://installation.hell.sh/apache-http-error-pages | bash```
