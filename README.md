@@ -1,6 +1,6 @@
 # HTTP-Error-Pages
 
-Fancy error pages for your server.
+Fancy error pages for your web server.
 
 - [400](https://errors.hell.sh/400.html)
 - [401](https://errors.hell.sh/401.html)
@@ -11,7 +11,11 @@ Fancy error pages for your server.
 
 ## Apache Installation
 
-If you clone HTTP-Error-Pages into `/etc/apache2/http-error-pages`, then you can add this to your `apache2.conf`:
+You can simply run this command:
+
+	wget -qO- https://installation.hell.sh/apache-http-error-pages | bash
+
+or clone HTTP-Error-Pages into `/etc/apache2/http-error-pages`, and then add this to your `apache2.conf`:
 
 	Alias /http-error-pages /etc/apache2/http-error-pages
 	ErrorDocument 400 /http-error-pages/400.html
@@ -24,7 +28,3 @@ If you clone HTTP-Error-Pages into `/etc/apache2/http-error-pages`, then you can
 		AllowOverride None
 		Require all granted
 	</Directory>
-
-or you can simply run this command:
-
-	wget -qO- https://installation.hell.sh/apache-http-error-pages | bash
